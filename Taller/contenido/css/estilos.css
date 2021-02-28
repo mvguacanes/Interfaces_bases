@@ -1,0 +1,181 @@
+header{
+    background: rgb(255, 169, 70);
+    font-family: 'Times New Roman';
+    color: black;
+}
+/* definir clases*/
+.colorUno{
+    background: #52eb52;
+    color: white;
+}
+.colorDos{
+    color: white;
+}
+
+/*tomar el nombre de la etiqueta*/
+.btn-primary{
+    color:  #99f3ff;
+    border-color: white;
+}
+
+body { 
+    min-height: 100vh;
+    background-image:url(../../contenido/imagenes/fondo.jpg);
+    font-family: 'Arial';
+}
+.body h2{ 
+    color: rgb(243, 243, 245);
+}
+
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #000;
+    display: -moz-grid-line;
+    font-size: 25px;
+    font-weight: 50px;
+    text-transform: uppercase;
+}
+
+.sabor { 
+    color: rgb(15, 15, 15);
+    margin: 7px 0;
+    font-size: 20px;
+    font-weight: 60px;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    display: -moz-grid-line;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
+.carousel {
+    min-height: 1px;
+}
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.carousel .carousel-item img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+position: absolute;
+
+z-index: -1;
+border-radius: 15px;
+
+}
+
+
+footer{
+    background:  rgb(255, 169, 70);
+    color: rgb(248, 248, 248); 
+    width: 100%;   
+}
+.Container-body{
+    display: flex;
+    justify-content: space-between;
+}
+.columna1{
+    max-width: 600px;
+}
+.columna1 h1{
+    font-size: 22px;
+}
+.columna1 p{
+    font-size: 14px;
+    color: rgb(243, 243, 245);
+    margin-top: 20px;
+}
+.columna2 {
+    max-width: 600px;
+}
+.columna2 h1{
+    font-size: 22px;
+}
+.row1{
+    margin-top: 20px;
+    display: flex;
+}
+.row1 img{
+    width: 36px;
+    height: 36px;
+
+}
+.row1 a{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(86, 110, 245);
+}
+.row2 a{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(245, 37, 200);
+}
+
+.row3 a{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: green;
+}
+.columna3{
+    max-width: 400px;
+}
+.columna3 h1{
+    font-size: 22px;
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 170px;
+    color: lightgray;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+    background: rgb(255, 169, 70);
+    max-width: 1030px;
+    margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+    background: skyblue;
+    color: white;
+}
+
